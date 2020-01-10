@@ -1,20 +1,16 @@
-import React from 'react';
-import s from './Profile.module.css';
-import MyPosts from './MyPosts/MyPosts.jsx';
-
+import React from "react";
+import s from "./Profile.module.css";
+import MyPosts from "./MyPosts/MyPosts.jsx";
+import ProfileInfo from "./ProfileInfo/Profileinfo";
 
 const Profile = () => {
-return (
+  return (
     <div>
-    <div>
-    <img src="https://images.unsplash.com/photo-1516641051054-9df6a1aad654?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"></img>
+      <ProfileInfo />
+
+      <MyPosts />
     </div>
-    <div>
-    ava + description
-    </div>
-   <MyPosts />
-</div>
-);
-}   
+  );
+};
 
 export default Profile;
