@@ -3,7 +3,7 @@ import s from "./Dialogs.module.css";
 import Dialogsitem from "./Dialogitem/Dialogsitem";
 import Message from "./Message/Message";
 
-const Dialogs = props => {
+const Dialogs = props => {  
   let dialogs = [
     { id: 1, name: "Dimych" },
     { id: 2, name: "Andrew" },
