@@ -9,7 +9,7 @@ import { Route, BrowserRouter } from 'react-router-dom';
 const App = (props) => {
  
   return (
-      <BrowserRouter>
+
       <div className='app-wrapper'> 
             <Header />
                 <Navbar />
@@ -20,7 +20,7 @@ const App = (props) => {
                 render={ () => <Profile state={props.state.profilePage} />} /> 
                    </div>
                  </div>
-    </BrowserRouter>
+
     );
 }
 
