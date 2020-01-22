@@ -27,8 +27,11 @@ let state = {
             { id: 6, message: "YO" }
           ]
     },
+    sidebar: {}
+}
 
-    let addPost = (postMessasge) => {
+    export let addPost = (postMessasge) => {
+        
         let newPost ={
             id: 5,
             message: postMessasge,
@@ -37,8 +40,7 @@ let state = {
 
 
         state.profilePage.posts.push(newPost);
-    };
- }
+    }
 
 export default state;
 
