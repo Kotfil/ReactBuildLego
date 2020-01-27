@@ -11,9 +11,8 @@ import { BrowserRouter } from "react-router-dom";
     ReactDOM.render ( 
         <BrowserRouter>
             <App  
-            state={state} 
-            addPost={store.addPost.bind(store)} 
-            updateNewPostText={store.updateNewPostText.bind(store)}/>
+                state={state} 
+                 dispatch={store.dispatch.bind(store)}  />
                 </BrowserRouter>, document.getElementById('root'));
 }
 
